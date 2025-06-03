@@ -30,7 +30,7 @@ bin/
 /nbdist/
 /.nb-gradle/
 
-# Systemowe pliki
+# System files
 .DS_Store
 Thumbs.db
 ehthumbs.db
