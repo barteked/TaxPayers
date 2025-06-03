@@ -1,4 +1,10 @@
 package com.example.officials;
 
-public class TaxChildlessRelationship {
+import java.math.BigDecimal;
+
+public class TaxChildlessRelationship implements TaxStrategy {
+    @Override
+    public BigDecimal calculateTax(BigDecimal annualEarnings) {
+        return annualEarnings.multiply(new BigDecimal("0.25"));
+    }
 }
