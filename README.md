@@ -1,8 +1,8 @@
-# Taxpayers
+# TaxPayers
 
 ## Project Description
 
-**Taxpayers** is a Java application designed to model a tax calculation system for citizens of the fictional country Nibylandia.
+**TaxPayers** is a Java application designed to model a tax calculation system for citizens of the fictional country Nibylandia.
 
 The application enables officials to generate reports detailing how much tax each citizen should pay, based on their tax status and monthly earnings.
 
@@ -52,4 +52,4 @@ The application enables officials to generate reports detailing how much tax eac
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/barteked/Taxpayers.git
+   git clone https://github.com/barteked/TaxPayers.git
