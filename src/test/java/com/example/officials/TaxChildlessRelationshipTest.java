@@ -10,7 +10,7 @@ class TaxChildlessRelationshipTest {
     @Test
     void shouldCalculateTaxCorrectly() {
         // Given
-        TaxChildlessRelationship taxStrategy = new TaxChildlessRelationship();
+        TaxStrategy taxStrategy = new TaxChildlessRelationship();
         BigDecimal yearlyIncome = new BigDecimal("60000.00");
         BigDecimal expectedTax = new BigDecimal("15000.00");
 

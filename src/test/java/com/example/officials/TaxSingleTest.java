@@ -10,7 +10,7 @@ class TaxSingleTest {
     @Test
     void shouldCalculateTaxCorrectly() {
         // Given
-        TaxSingle taxSingle = new TaxSingle();
+        TaxStrategy taxSingle = new TaxSingle();
         BigDecimal yearlyIncome = new BigDecimal("60000.00");
         BigDecimal expectedTax = new BigDecimal("23400.00");
 

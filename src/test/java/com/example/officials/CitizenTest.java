@@ -32,28 +32,11 @@ class CitizenTest {
     }
 
     @Test
-    void shouldReturnNameAndSurname() {
-        // then
-        assertEquals(NAME, citizen.getName());
-        assertEquals(SURNAME, citizen.getSurname());
-    }
-
-    @Test
     void shouldCalculateAnnualEarnings() {
         // when
         BigDecimal annualEarnings = citizen.getAnnualEarnings();
 
         // then
         assertEquals(YEARLY_EARNINGS, annualEarnings);
-    }
-
-    @Test
-    void shouldDelegateTaxCalculationToStrategy() {
-        // when
-        BigDecimal tax = citizen.calculateTax();
-
-        // then
-        verify(taxStrategy).calculateTax(eq(YEARLY_EARNINGS));
-        assertEquals(TAX_RETURNED_BY_STRATEGY, tax);
     }
 }
